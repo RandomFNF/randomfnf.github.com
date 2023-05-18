@@ -1,16 +1,41 @@
 <html>
 
     <head>
-
+        <link rel="stylesheet" href="myStyle.css">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <style>
+          /* Add some basic styling to the navigation bar */
+          .navbar {
+            background-color: #f1f1f1;
+            overflow: hidden;
+          }
+      
+          .navbar a {
+            float: left;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            color: black;
+          }
+      
+          .navbar a:hover {
+            background-color: #ddd;
+          }
+      
+          .navbar a.active {
+            background-color: #4CAF50;
+            color: white;
+          }
+        </style>
     </head>
 
 
     <body>
-
+      <div class="navbar">
         <a href="index.html">Home</a>
         <a href="page1.html">Fruits</a>
         <a href="page2.html">You're not supposed to see this.</a>
-
+      </div>
 
         <h2>Ordered list</h2>
         <ol>
@@ -18,6 +43,8 @@
             <li>Bannanas</li>
             <li>Cherries</li>
         </ol>
-        
+      
+        <script src="script.js"></script>
+
     </body>
 </html>
